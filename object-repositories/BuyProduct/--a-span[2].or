@@ -1,0 +1,20 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.home \u003e div.container-fixed \u003e header \u003e div.container-fluid \u003e div.col-md-12.headerdetails \u003e div.block_7 \u003e ul.nav.topcart.pull-left \u003e li.dropdown.hover.open \u003e a.dropdown-toggle \u003e span.cart_total",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a/span[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

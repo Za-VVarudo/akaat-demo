@@ -1,0 +1,48 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Linktext",
+      "value": "Login or register",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.home \u003e div.container-fixed \u003e header \u003e div.headerstrip.navbar.navbar-inverse \u003e div.container-fluid \u003e div.navbar-collapse.collapse \u003e div.navbar-right.headerstrip_blocks \u003e div.block_2 \u003e #customernav \u003e #customer_menu_top \u003e li \u003e a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(@href, \u0027https://automationteststore.com/index.php?rt\u003daccount/login\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//ul[@id\u003d\u0027customer_menu_top\u0027]/li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u0027Login or register\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

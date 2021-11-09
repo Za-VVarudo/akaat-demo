@@ -1,0 +1,14 @@
+{
+  "args": [],
+  "binary": "",
+  "extensionFiles": [],
+  "extensions": [],
+  "experimentalOptions": {
+    "excludeSwitches": [],
+    "prefs": {}
+  },
+  "CAPABILITY": "ms:edgeOptions",
+  "caps": {
+    "browserName": "MicrosoftEdge"
+  }
+}

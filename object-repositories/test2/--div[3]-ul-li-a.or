@@ -1,0 +1,41 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Linktext",
+      "value": "  \n\t\t\t6\n\t\t\tItems\t\t\t-\n\t\t\t$254.50\n\t\t\t\n\t\t",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.home \u003e div.container-fixed \u003e header \u003e div.container-fluid \u003e div.col-md-12.headerdetails \u003e div.block_7 \u003e ul.nav.topcart.pull-left \u003e li.dropdown.hover.open \u003e a.dropdown-toggle",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[3]/ul/li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "xpath\u003d(//a[contains(@href, \u0027https://automationteststore.com/index.php?rt\u003dcheckout/cart\u0027)])[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u00276\n\t\t\tItems\t\t\t-\n\t\t\t$254.50\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

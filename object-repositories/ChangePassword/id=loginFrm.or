@@ -1,0 +1,13 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "loginFrm",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

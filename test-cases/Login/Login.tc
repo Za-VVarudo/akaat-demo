@@ -1,0 +1,282 @@
+{
+  "setUp": {
+    "type": "SETUP",
+    "uuid": "0",
+    "keyword": "Set Up",
+    "platform": {
+      "name": "control",
+      "displayName": ""
+    },
+    "uiObject": "",
+    "params": [],
+    "output": "",
+    "keywordSource": "internal",
+    "executions": [],
+    "description": "",
+    "enable": true
+  },
+  "tearDown": {
+    "type": "TEARDOWN",
+    "uuid": "0",
+    "keyword": "Tear Down",
+    "platform": {
+      "name": "control",
+      "displayName": ""
+    },
+    "uiObject": "",
+    "params": [],
+    "output": "",
+    "keywordSource": "internal",
+    "executions": [],
+    "description": "",
+    "enable": true
+  },
+  "uuid": "eac98bfa-e97c-49a1-b475-0b3079e2242a",
+  "e2eTestcase": false,
+  "executions": [
+    {
+      "uuid": "b6666f08-d192-4c22-a7b8-2d32c151e644",
+      "keyword": "For statement",
+      "platform": {
+        "name": "control",
+        "displayName": ""
+      },
+      "uiObject": "",
+      "params": [
+        {
+          "paramName": "dataSource",
+          "paramType": "Data Table",
+          "source": "Variable",
+          "paramValue": "account"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "executions": [
+        {
+          "uuid": "92b8ac95-0ae8-4635-974c-34ca11d1213e",
+          "keyword": "Open Browser",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "",
+          "params": [
+            {
+              "paramName": "url",
+              "paramType": "String",
+              "source": "Global Variable",
+              "paramValue": "url"
+            }
+          ],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "55726b88-f22f-4636-866e-b5b36640a91d",
+          "keyword": "Click",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/--li-a\",\"variableBinding\":[]}",
+          "params": [],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "4d6baebb-1e72-4ac3-9d4a-7b6a5845c7d4",
+          "keyword": "Click",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/--div-div-input\",\"variableBinding\":[]}",
+          "params": [],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "79024dec-4e2f-474d-94ff-5abf00bc3097",
+          "keyword": "Set Text",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/--div-div-input\",\"variableBinding\":[]}",
+          "params": [
+            {
+              "paramName": "text",
+              "paramType": "String",
+              "source": "Data Column",
+              "paramValue": "account.username"
+            }
+          ],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "09432a48-b5f3-43a6-ab7b-8f02a7c108dd",
+          "keyword": "Set Text",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/--div[2]-div-input\",\"variableBinding\":[]}",
+          "params": [
+            {
+              "paramName": "text",
+              "paramType": "String",
+              "source": "Data Column",
+              "paramValue": "account.password"
+            }
+          ],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "cd89a3cd-5138-4e43-bb10-ac37ec6942a4",
+          "keyword": "Submit a Form",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/id\\u003dloginFrm\",\"variableBinding\":[]}",
+          "params": [],
+          "output": "",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "2979b4c2-7f85-4c39-852a-f9264f3f3336",
+          "keyword": "Get Text",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "{\"uiObjectPath\":\"Login/--a-div\",\"variableBinding\":[]}",
+          "params": [
+            {
+              "paramName": "regularExpressions",
+              "paramType": "String",
+              "source": "Default",
+              "paramValue": "^$"
+            },
+            {
+              "paramName": "group",
+              "paramType": "Integer",
+              "source": "Default",
+              "paramValue": "0"
+            }
+          ],
+          "output": "loginMessage",
+          "keywordSource": "internal",
+          "executions": [],
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "6d3e705c-3e57-4abc-b348-5bf7fc344503",
+          "keyword": "Verify Match",
+          "platform": {
+            "name": "core",
+            "displayName": ""
+          },
+          "uiObject": "",
+          "params": [
+            {
+              "paramName": "actualText",
+              "paramType": "String",
+              "source": "Variable",
+              "paramValue": "loginMessage"
+            },
+            {
+              "paramName": "expectedText",
+              "paramType": "String",
+              "source": "Variable",
+              "paramValue": "messageFormat"
+            },
+            {
+              "paramName": "isRegex",
+              "paramType": "Boolean",
+              "source": "Default",
+              "paramValue": "true"
+            }
+          ],
+          "output": "",
+          "keywordSource": "internal",
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        },
+        {
+          "uuid": "3f43ec69-d47a-4e5b-bba1-cc38e589d9ab",
+          "keyword": "Close Browser",
+          "platform": {
+            "name": "chrome",
+            "displayName": "chrome_capability",
+            "capabilityPath": "WebCapabilities/chrome_capability.capability"
+          },
+          "uiObject": "",
+          "params": [],
+          "output": "",
+          "keywordSource": "internal",
+          "failureHandling": "STOP_ON_FAILURE",
+          "description": "",
+          "enable": true
+        }
+      ],
+      "description": "",
+      "enable": true
+    }
+  ],
+  "variableList": [
+    {
+      "name": "loginMessage",
+      "type": "String",
+      "defaultValue": ""
+    },
+    {
+      "name": "messageFormat",
+      "type": "String",
+      "defaultValue": "^Welcome back .+$"
+    },
+    {
+      "name": "account",
+      "type": "Data Table",
+      "defaultValue": "accounts"
+    }
+  ],
+  "invalidFlow": false
+}

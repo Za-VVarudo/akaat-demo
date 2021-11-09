@@ -1,0 +1,505 @@
+{
+  "setUp": {
+    "type": "SETUP",
+    "uuid": "0",
+    "keyword": "Set Up",
+    "platform": {
+      "name": "control",
+      "displayName": ""
+    },
+    "uiObject": "",
+    "params": [],
+    "output": "",
+    "keywordSource": "internal",
+    "executions": [],
+    "description": "",
+    "enable": true
+  },
+  "tearDown": {
+    "type": "TEARDOWN",
+    "uuid": "0",
+    "keyword": "Tear Down",
+    "platform": {
+      "name": "control",
+      "displayName": ""
+    },
+    "uiObject": "",
+    "params": [],
+    "output": "",
+    "keywordSource": "internal",
+    "executions": [],
+    "description": "",
+    "enable": true
+  },
+  "uuid": "dbe1e71b-6320-4d37-9947-b93531da7a32",
+  "e2eTestcase": false,
+  "executions": [
+    {
+      "uuid": "9ffa90bf-22ad-4f36-8edd-7cdc41e2bd31",
+      "keyword": "Open Browser",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "",
+      "params": [
+        {
+          "paramName": "url",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "https://automationteststore.com/"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "82a4e382-5438-462b-9bde-57f1ef965a1a",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--li-a\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "4cfec247-0c59-41c0-b210-ff5670bd0d7e",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div-div-input\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "65d5b6f4-db51-4bc7-8952-ce6df7b6538f",
+      "keyword": "Set Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div-div-input\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "text",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "deathislikethewind001"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "d0af0916-bc16-42b1-bafa-a61d29f2852c",
+      "keyword": "Set Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[2]-div-input\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "text",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "123456"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "f8edbf62-74da-4719-beb6-8961c1ab95fb",
+      "keyword": "Submit a Form",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/id\\u003dloginFrm\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "5619bf4a-9191-486f-acbc-e16c2562a2e4",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--li[3]-a\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "cb7256c8-03e5-428e-916c-c4560d8f61b9",
+      "keyword": "Get Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--fieldset-div-div\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "regularExpressions",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "^$"
+        },
+        {
+          "paramName": "group",
+          "paramType": "Integer",
+          "source": "Default",
+          "paramValue": "0"
+        }
+      ],
+      "output": "detailUsername",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "16a5aea0-a21f-4405-bbf7-4615d31644c8",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--section-ul-li-a\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "3beed569-b03d-4db8-a754-59f59572389b",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[3]-a-i\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "b91aa440-2f20-48b6-8249-0758eb07a7cc",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[3]-div[2]-div[3]-a-i\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "15871815-4b4a-4b18-837c-69fe9e73ff4b",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--section[3]-div-div-div-div-div[2]-div[3]-a-i\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "2191127b-fec2-46b6-8886-b472066d6ce6",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[2]-div[2]-div[3]-a-i\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "e23ff8ec-13ab-4e66-aa11-3ef4643bc850",
+      "keyword": "Mouse Over",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[2]-div[2]-div[3]-a-i\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "b2943e87-413f-4f2c-8f49-8762e1bcc201",
+      "keyword": "Get Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--a-span[2]\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "regularExpressions",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "^$"
+        },
+        {
+          "paramName": "group",
+          "paramType": "Integer",
+          "source": "Default",
+          "paramValue": "0"
+        }
+      ],
+      "output": "cartTotal",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "ce0a32fb-9a50-4391-8f61-4cfab2001c75",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--li[4]-a-span\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "6bf4829b-ab16-4ba1-9f84-294ce38de861",
+      "keyword": "Get Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div-div-table-tbody-tr-td[2]-span\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "regularExpressions",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "^$"
+        },
+        {
+          "paramName": "group",
+          "paramType": "Integer",
+          "source": "Default",
+          "paramValue": "0"
+        }
+      ],
+      "output": "checkoutTotal",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "a19cbdca-cb67-4303-af91-ecac52f7e70a",
+      "keyword": "Click",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--div[2]-div-div-div-button\",\"variableBinding\":[]}",
+      "params": [],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "7e0e9dae-1d2a-4cd5-85cc-1af0ad71660b",
+      "keyword": "Get Text",
+      "platform": {
+        "name": "chrome",
+        "displayName": "chrome_capability",
+        "capabilityPath": "WebCapabilities/chrome_capability.capability"
+      },
+      "uiObject": "{\"uiObjectPath\":\"BuyProduct/--message\",\"variableBinding\":[]}",
+      "params": [
+        {
+          "paramName": "regularExpressions",
+          "paramType": "String",
+          "source": "Default",
+          "paramValue": "^$"
+        },
+        {
+          "paramName": "group",
+          "paramType": "Integer",
+          "source": "Default",
+          "paramValue": "0"
+        }
+      ],
+      "output": "message",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "967ba280-fec8-4630-b5e2-89b86ff86207",
+      "keyword": "Verify Match",
+      "platform": {
+        "name": "core",
+        "displayName": ""
+      },
+      "uiObject": "",
+      "params": [
+        {
+          "paramName": "actualText",
+          "paramType": "String",
+          "source": "Variable",
+          "paramValue": "message"
+        },
+        {
+          "paramName": "expectedText",
+          "paramType": "String",
+          "source": "Variable",
+          "paramValue": "messageFormat"
+        },
+        {
+          "paramName": "isRegex",
+          "paramType": "Boolean",
+          "source": "Default",
+          "paramValue": "true"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    },
+    {
+      "uuid": "94c8e8ea-8758-455a-bf1d-150ed04357e6",
+      "keyword": "Verify Equal",
+      "platform": {
+        "name": "core",
+        "displayName": ""
+      },
+      "uiObject": "",
+      "params": [
+        {
+          "paramName": "actualObject",
+          "paramType": "String",
+          "source": "Variable",
+          "paramValue": "cartTotal"
+        },
+        {
+          "paramName": "expectedObject",
+          "paramType": "String",
+          "source": "Variable",
+          "paramValue": "checkoutTotal"
+        }
+      ],
+      "output": "",
+      "keywordSource": "internal",
+      "failureHandling": "CONTINUTE_ON_FAILURE",
+      "description": "",
+      "enable": true
+    }
+  ],
+  "variableList": [
+    {
+      "name": "detailUsername",
+      "type": "String",
+      "defaultValue": " "
+    },
+    {
+      "name": "cartTotal",
+      "type": "String",
+      "defaultValue": " "
+    },
+    {
+      "name": "checkoutTotal",
+      "type": "String",
+      "defaultValue": " "
+    },
+    {
+      "name": "message",
+      "type": "String",
+      "defaultValue": " "
+    },
+    {
+      "name": "messageFormat",
+      "type": "String",
+      "defaultValue": "^Your order #[0-9]+ has been created!$"
+    }
+  ],
+  "invalidFlow": false
+}

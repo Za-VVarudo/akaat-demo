@@ -1,0 +1,14 @@
+{
+  "CAPABILITY": "ios:iosOptions",
+  "caps": {
+    "deviceName": "iOS Device",
+    "platformName": "iOS",
+    "platformVersion": "",
+    "udid": "",
+    "bundleId": "",
+    "xcodeOrgId": "",
+    "xcodeSigningId": "",
+    "newCommandTimeout": "600",
+    "automationName": "XCUITest"
+  }
+}

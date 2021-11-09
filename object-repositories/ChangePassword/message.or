@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": ".alert.alert-success",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "(//div[@class\u003d\u0027alert alert-success\u0027])[1]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

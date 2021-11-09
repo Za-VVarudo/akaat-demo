@@ -1,0 +1,7 @@
+{
+  "options": {},
+  "CAPABILITY": "safari:safariOptions",
+  "caps": {
+    "browserName": "safari"
+  }
+}

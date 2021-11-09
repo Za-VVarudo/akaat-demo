@@ -1,0 +1,8 @@
+{
+  "CAPABILITY": "windows:windowsOptions",
+  "caps": {
+    "app": "",
+    "deviceName": "WindowsPC",
+    "platformName": "Windows"
+  }
+}

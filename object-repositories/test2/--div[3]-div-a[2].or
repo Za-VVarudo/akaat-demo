@@ -1,0 +1,62 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "cart_checkout2",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "Linktext",
+      "value": "Checkout",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.checkout-cart \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-12.col-xs-12.mt20 \u003e div \u003e #cart \u003e div.contentpanel \u003e div.container-fluid.cart_total \u003e div.col-md-6.cart-info.totals.pull-right.table-responsive \u003e #cart_checkout2",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[3]/div/a[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "xpath\u003d(//a[contains(@href, \u0027#\u0027)])[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//form[@id\u003d\u0027cart\u0027]/div/div[3]/div/a[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[@id\u003d\u0027cart_checkout2\u0027]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u0027Checkout\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

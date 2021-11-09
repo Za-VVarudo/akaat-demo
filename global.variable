@@ -1,0 +1,22 @@
+[
+  {
+    "name": "url",
+    "type": "String",
+    "defaultValue": "https://automationteststore.com/"
+  },
+  {
+    "name": "username",
+    "type": "String",
+    "defaultValue": "deathislikethewind001"
+  },
+  {
+    "name": "password",
+    "type": "String",
+    "defaultValue": "1234567890"
+  },
+  {
+    "name": "newPassword",
+    "type": "String",
+    "defaultValue": "123456789"
+  }
+]

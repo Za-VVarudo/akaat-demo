@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.checkout-cart \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-12.col-xs-12.mt20 \u003e div \u003e #cart \u003e div.contentpanel \u003e div.container-fluid.cart_total \u003e div.col-md-6.cart-info.totals.pull-right.table-responsive \u003e #totals_table \u003e tbody \u003e tr:nth-of-type(2) \u003e td:nth-of-type(1) \u003e span.bold.totalamout",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//tr[3]/td[2]/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//table[@id\u003d\u0027totals_table\u0027]/tbody/tr[3]/td[2]/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

@@ -1,0 +1,48 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Linktext",
+      "value": "29",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.account-account \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-9.col-xs-12.mt20 \u003e div..ct_padding_right \u003e ul.nav-dash \u003e li:nth-of-type(4) \u003e a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div/div/ul/li[5]/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "xpath\u003d(//a[contains(@href, \u0027https://automationteststore.com/index.php?rt\u003daccount/history\u0027)])[2]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027maincontainer\u0027]/div/div/div/ul/li[5]/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u002729\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

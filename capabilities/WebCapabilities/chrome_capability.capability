@@ -1,0 +1,14 @@
+{
+  "args": [],
+  "binary": "",
+  "extensionFiles": [],
+  "extensions": [],
+  "experimentalOptions": {
+    "excludeSwitches": [],
+    "prefs": {}
+  },
+  "CAPABILITY": "goog:chromeOptions",
+  "caps": {
+    "browserName": "chrome"
+  }
+}

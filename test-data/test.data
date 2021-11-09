@@ -1,0 +1,16 @@
+###########metadata###########
+dataFile=
+pathType=
+fileType=Database
+queryString=select+*%0D%0Afrom+accounts
+firstRowAsColumn=false
+dbConfigName=asasd
+encryptedColumn=
+columnType=String, String, String
+charset=UTF-8
+
+###########data###########
+id,username,password
+1,deathislikethewind001,123456789
+2,deathislikethewind002,123456
+3,deathislikethewind003,111111

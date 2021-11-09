@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.checkout-confirm \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-9.col-xs-12.mt20 \u003e div..ct_padding_right \u003e div.contentpanel \u003e div.row.confirm_total \u003e div.cart-info.col-md-5 \u003e table.table.table-striped.table-bordered \u003e tbody \u003e tr \u003e td:nth-of-type(1) \u003e span.bold.",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div/div/table/tbody/tr/td[2]/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027maincontainer\u0027]/div/div/div/div[2]/div/div/table/tbody/tr/td[2]/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

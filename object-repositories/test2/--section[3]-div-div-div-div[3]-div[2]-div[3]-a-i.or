@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.home \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-12.col-xs-12.mt20 \u003e #latest \u003e div.container-fluid \u003e #block_frame_latest_1770 \u003e div.thumbnails.list-inline \u003e div.col-md-3.col-sm-6.col-xs-12 \u003e div.thumbnail \u003e div.pricetag.jumbotron \u003e a.productcart \u003e i.fa.fa-cart-plus.fa-fw",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//section[3]/div/div/div/div[3]/div[2]/div[3]/a/i",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027block_frame_latest_1770\u0027]/div/div[3]/div[2]/div[3]/a/i",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

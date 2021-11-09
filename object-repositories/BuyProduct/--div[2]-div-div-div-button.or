@@ -1,0 +1,41 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "checkout_btn",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.checkout-confirm \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-9.col-xs-12.mt20 \u003e div..ct_padding_right \u003e div.contentpanel \u003e div.row.confirm_total \u003e div.col-md-7.payment_confirmation \u003e #payment \u003e div.form-group.action-buttons \u003e div.col-md-12 \u003e #checkout_btn",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[2]/div/div/div/button",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027payment\u0027]/div/div/button",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[@id\u003d\u0027checkout_btn\u0027]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

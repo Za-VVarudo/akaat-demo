@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.account-account \u003e div.container-fixed \u003e header \u003e div.headerstrip.navbar.navbar-inverse \u003e div.container-fluid \u003e div.navbar-collapse.collapse \u003e div.navbar-right.headerstrip_blocks \u003e div.block_2 \u003e #customernav \u003e #customer_menu_top \u003e li.dropdown \u003e a.top.menu_account \u003e div.menu_text",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a/div",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//ul[@id\u003d\u0027customer_menu_top\u0027]/li/a/div",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

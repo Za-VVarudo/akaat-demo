@@ -1,0 +1,48 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Linktext",
+      "value": "Audio CD",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.home \u003e div.container-fixed \u003e div.container-fluid \u003e div.col-md-12 \u003e #categorymenu \u003e nav.subnav \u003e ul.nav-pills.categorymenu \u003e li:nth-of-type(7) \u003e div.subcategories \u003e ul \u003e li \u003e a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//li[8]/div/ul/li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(@href, \u0027https://automationteststore.com/index.php?rt\u003dproduct/category\u0026path\u003d65_66\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//section[@id\u003d\u0027categorymenu\u0027]/nav/ul/li[8]/div/ul/li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u0027Audio CD\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

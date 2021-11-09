@@ -1,0 +1,8 @@
+{
+  "CAPABILITY": "ie:ieOptions",
+  "ieOptions": {},
+  "caps": {
+    "browserName": "internet explorer",
+    "se:ieOptions": {}
+  }
+}

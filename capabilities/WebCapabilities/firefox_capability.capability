@@ -1,0 +1,10 @@
+{
+  "args": [],
+  "preferences": {},
+  "legacy": false,
+  "profile": {},
+  "CAPABILITY": "firefox:firefoxOptions",
+  "caps": {
+    "browserName": "firefox"
+  }
+}

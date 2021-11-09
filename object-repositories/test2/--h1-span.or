@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.checkout-success \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-12.col-xs-12.mt20 \u003e div \u003e h1.heading1 \u003e span.maintext",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//h1/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027maincontainer\u0027]/div/div/div/h1/span",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

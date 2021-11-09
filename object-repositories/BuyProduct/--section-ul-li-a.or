@@ -1,0 +1,41 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Linktext",
+      "value": "Home",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.account-edit \u003e div.container-fixed \u003e div.container-fluid \u003e div.col-md-12 \u003e section.breadcrumbs \u003e ul.breadcrumb \u003e li \u003e a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//section/ul/li/a",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "xpath\u003d(//a[contains(@href, \u0027https://automationteststore.com/\u0027)])[62]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//a[contains(text(),\u0027Home\u0027)]",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}

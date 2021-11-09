@@ -1,0 +1,15 @@
+{
+  "CAPABILITY": "android:androidOptions",
+  "caps": {
+    "deviceName": "Android Device",
+    "platformName": "Android",
+    "udid": "",
+    "appPackage": "",
+    "appActivity": "",
+    "appWaitActivity": "",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
+    "androidInstallTimeout": "10000",
+    "automationName": "UiAutomator2"
+  }
+}

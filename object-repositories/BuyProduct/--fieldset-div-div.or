@@ -1,0 +1,27 @@
+{
+  "locatorList": [
+    {
+      "strategy": "CSS",
+      "value": "html \u003e body.account-edit \u003e div.container-fixed \u003e #maincontainer \u003e div.container-fluid \u003e div.col-md-9.col-xs-12.mt20 \u003e div..ct_padding_right \u003e div.contentpanel \u003e #AccountFrm \u003e div.registerbox.form-horizontal \u003e fieldset \u003e div.form-group. \u003e div.input-group.col-md-4",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//fieldset/div/div",
+      "active": true,
+      "status": true,
+      "rate": 0
+    },
+    {
+      "strategy": "XPath",
+      "value": "//form[@id\u003d\u0027AccountFrm\u0027]/div/fieldset/div/div",
+      "active": true,
+      "status": true,
+      "rate": 0
+    }
+  ],
+  "variableList": [],
+  "type": "web"
+}
